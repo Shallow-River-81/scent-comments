@@ -1,0 +1,75 @@
+﻿/* ============================================
+   Giscus 自定义深色主题 · 香的五感
+   评论框内部背景 = 页脚深棕黑 #221c18
+   强调色 = 琥珀金 #C89B3C
+   ============================================ */
+
+/* 页面主背景（评论框整体） */
+:root {
+  --color-canvas-default: #221c18;
+  --color-canvas-overlay: #2c2621;
+  --color-canvas-inset: #1a1512;
+  --color-canvas-subtle: #2c2621;
+  --color-page-header-bg: #221c18;
+  --color-page-header-bg-muted: #2c2621;
+
+  /* 文字 */
+  --color-fg-default: #e9e2d8;
+  --color-fg-muted: #a89d90;
+  --color-fg-subtle: #847a6e;
+  --color-fg-on-emphasis: #221c18;
+
+  /* 边框 */
+  --color-border-default: #3b342e;
+  --color-border-muted: #302a24;
+  --color-neutral-muted: rgba(245,241,234,.08);
+  --color-neutral-subtle: rgba(245,241,234,.04);
+
+  /* 强调色 · 琥珀金 */
+  --color-accent-fg: #C89B3C;
+  --color-accent-emphasis: #C89B3C;
+  --color-accent-muted: rgba(200,155,60,.2);
+  --color-accent-subtle: rgba(200,155,60,.08);
+  --color-accent-hover: #A87F2E;
+
+  /* 链接 */
+  --color-accent-fg-hover: #ddb45a;
+
+  /* 按钮 */
+  --color-btn-bg: #2f2822;
+  --color-btn-hover-bg: #3b322b;
+  --color-btn-text: #e9e2d8;
+  --color-btn-border: #3b342e;
+  --color-btn-primary-bg: #C89B3C;
+  --color-btn-primary-hover-bg: #A87F2E;
+  --color-btn-primary-text: #1a1512;
+  --color-btn-primary-border: #A87F2E;
+
+  /* 输入框 */
+  --color-input-bg: #2c2621;
+  --color-input-border: #3b342e;
+  --color-input-contrast-bg: #2c2621;
+
+  /* 头像/徽章 */
+  --color-avatar-bg: #2c2621;
+  --color-avatar-border: rgba(245,241,234,.1);
+
+  /* 评论高亮 */
+  --color-bg-discussion: #221c18;
+  --color-bg-inset: #1a1512;
+  --color-bg-subtle: #2c2621;
+
+  /* 阴影 */
+  --color-shadow-medium: 0 3px 6px rgba(0,0,0,.3);
+  --color-shadow-large: 0 8px 24px rgba(0,0,0,.4);
+}
+
+/* 评论容器圆角 */
+.giscus, .giscus-frame {
+  border-radius: 16px;
+}
+
+/* 滚动条适配深色 */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-thumb { background: #3b342e; border-radius: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
